@@ -1,0 +1,19 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "john",
+  "email": "john@mail.com"
+  
+}
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": 5,
+  "email": "johnmailcom"
+  
+}
+
